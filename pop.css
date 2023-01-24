@@ -1,0 +1,147 @@
+body{
+    font-weight: bold;
+ background-size: cover;
+    text-align: center;
+    background-image: url(./aD6Hiwe.jpg)
+}
+#pop{
+    color: crimson;
+}
+#nan{
+    color: blueviolet;
+}
+#demo{
+    padding: 10px;
+    color:violet;
+    text-decoration: underline;
+   
+
+}
+#lemo{
+
+    color: violet;
+    text-decoration: underline;
+    padding: 10px;
+}
+#pamo{
+    color:chocolate;
+    text-decoration: underline;
+}
+#cam{
+    color:chocolate;
+    text-decoration: underline;
+    padding: 15px;
+}
+#kkk{
+    padding: 50px;
+    color:coral;
+}
+.uff{
+background-color:violet;
+border: 2px solid black ;
+border-radius:  10px;   
+color:black;
+cursor: pointer;
+ font-weight: bold;
+transition: background-color 0.5s;
+margin: auto;
+padding: 4px;
+
+}
+.uff:hover{
+    background-color: bisque;
+    transform: translateY(-0.25rem);
+    box-shadow: 0px 3px 10px black;
+}
+
+#uf{
+    background-color: blueviolet;
+    border: 2px solid firebrick;
+    border-radius:  10px;   
+    color:black;
+    cursor: pointer;
+     font-weight: bold;
+     transition: background-color 0.5s; 
+     margin: auto;
+     padding: 4px;
+    }
+    #uf:hover{
+        background-color: bisque;
+        border: 2px solid black;
+        transform: translateY(-0.25rem);
+        box-shadow: 0px 3px 10px black;
+    }
+   .nani{
+        background-color:aliceblue;
+       width:50%; 
+         margin:auto; 
+        border: 2px solid green;
+        padding: 10px; 
+        box-shadow: 0px 3px 10px black;
+    }
+    #ok{
+        background-color: blueviolet;
+        border: 2px solid firebrick;
+        border-radius:  10px;   
+        color:black;
+        cursor: pointer;
+         font-weight: bold;
+         transition: background-color 0.5s; 
+         margin: auto;
+         padding: 4px;
+        }
+        
+             #pas{
+                background-color: blueviolet;
+                border: 2px solid firebrick;
+                border-radius:  10px;   
+                color:black;
+                cursor: pointer;
+                 font-weight: bold;
+                 transition: background-color 0.5s; 
+                 margin: auto;
+                 padding: 4px;
+                 font-size:xx-small;
+                }
+        
+                    #btn{
+                    background-color: blueviolet;
+                    border: 2px solid firebrick;
+                    border-radius:  10px;   
+                    color:black;
+                    cursor: pointer;
+                     font-weight: bold;
+                     transition: background-color 0.5s; 
+                     margin: auto;
+                     padding: 4px;
+                    }
+                    #btn:hover{
+                        background-color: bisque;
+                        border: 2px solid black;
+                        transform: translateY(-0.25rem);
+                        box-shadow: 0px 3px 10px black;
+                    }
+                    .ogg{
+                        position: relative;
+                        width: 80%;
+                        max-width: 600px;
+                        border-radius: 6px;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        margin:auto;
+                        overflow: hidden;
+                        background-color:rgb(174, 237, 174);
+                        font-size: xx-large;
+                    }
+                    .nam{
+                        position: relative;
+                        width: 80%;
+                        max-width: 600px;
+                        border-radius: 6px;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        margin:auto;
+                        overflow: hidden;
+                        background-color:rosybrown;
+                        font-size: xx-large;
+                    }

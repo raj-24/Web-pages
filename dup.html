@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dupcs.css">
+</head>
+<body>
+    <div class="nani">
+        <h1>Dail Pad</h1>
+        <br/>
+        <br/>
+        <div class="ogg">
+                    <span id="demo"></span>  
+        </div>
+        <br>
+        <br>
+        <div >
+            <button class="uff" type="button" onclick="a()" >1</button>
+            <button class="uff" type="button" onclick="b()">2</button>
+            <button class="uff" type="button" onclick="c()">3</button>
+            <br>
+            <br>
+            <button class="uff" type="button" onclick="d()">4</button>
+            <button class="uff" type="button" onclick="e()">5</button>  
+            <button class="uff" type="button" onclick="f()">6</button>
+                <br>
+                <br>
+        <button class="uff" type="button" onclick="g()">7</button>
+        <button class="uff" type="button" onclick="h()">8</button>
+        <button class="uff" type="button" onclick="i()">9</button>
+<br>
+<br>
+<button class="uff" type="button" onclick="k()">call</button>
+<button class="uff" type="button" onclick="j()">0</button>
+<button class="uff" type="button" onclick="l()"><-</button>
+<br>
+<br>
+<button class="uff" type="button" onclick="m()">CLEAR</button>
+<p id="par"></p>
+        </div>
+        </div>
+     <script >var result;
+        var sol;
+        function a(){
+             result=1;
+             document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result; 
+        }
+        function b(){
+             result=2; 
+             document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;     
+        }
+        function c(){
+             result=3;
+             document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+         }
+         function d(){
+              result=4;
+              document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+         }
+         function e(){
+              result=5;
+              document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+         }
+         function f(){
+              result=6;
+              document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+         }
+         function g(){
+              result=7;
+              document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+         }
+         function h(){
+              result=8;
+              document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+         }function i(){
+              result=9;
+              document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+         }
+         
+         function j(){
+              result=0;
+              document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+         }
+        
+         function k(){
+        
+             let f= document.getElementById("demo").textContent;
+        
+        document.getElementById("demo").textContent= "Calling "+f+"..........";
+         }
+              function l(){
+                    let n  =   String(document.getElementById("demo").textContent);  
+                  n.toString();
+                  n=n.substring(0,n.length-1);
+        
+         document.getElementById("demo").textContent=n; 
+              }
+        function m(){
+              document.getElementById("demo").textContent=" "; 
+        }
+        
+        
+              
+            var result;
+var sol;
+function a(){
+     result=1;
+     document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result; 
+}
+function b(){
+     result=2; 
+     document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;     
+}
+function c(){
+     result=3;
+     document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+ }
+ function d(){
+      result=4;
+      document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+ }
+ function e(){
+      result=5;
+      document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+ }
+ function f(){
+      result=6;
+      document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+ }
+ function g(){
+      result=7;
+      document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+ }
+ function h(){
+      result=8;
+      document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+ }function i(){
+      result=9;
+      document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+ }
+ 
+ function j(){
+      result=0;
+      document.getElementById("demo").innerHTML=document.getElementById("demo").innerHTML+result;   
+ }
+
+ function k(){
+
+     let f= document.getElementById("demo").textContent;
+
+document.getElementById("demo").textContent= "Calling "+f+"..........";
+ }
+      function l(){
+            let n  =   String(document.getElementById("demo").textContent);  
+          n.toString();
+          n=n.substring(0,n.length-1);
+
+ document.getElementById("demo").textContent=n; 
+      }
+function m(){
+      document.getElementById("demo").textContent=" "; 
+}
+
+
+      
+    </script>
+</body>
+</html>
